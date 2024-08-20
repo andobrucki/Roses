@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-padding-top: 85px;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 80px;
+  background-color: #8b031c;
+  border-bottom: black 2px solid;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  margin: 0 -8px;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding: 20px;
+  display: inline-block;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:active {
+  box-shadow: 5px 5px 15px black;
+}
+
+nav a:hover {
+  color: #576094;
+}
+
+body {
+  background-color: black;
+  background-image: url(../img/blue-rose-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.aboutsection div {
+  border: black solid 1px;
+  display: block;
+  text-align: center;
+  margin: 50px;
+  margin-top: 80px;
+  padding: 15px;
+  background-color: #576094;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.ourrosessectionintro div {
+  border: black solid 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: #576094;
+  text-align: center;
+  margin: 50px;
+  padding: 0 15px;
+}
+
+.ourrosessectionoverview div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 0 15px;
+}
+
+.ourrosessectionoverview div article {
+  border: black solid 1px;
+  color: black;
+  background-color: #576094;
+  margin: 10px;
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ourrosessectionoverview img {
+  width: 120px;
+}
+
+.servicessection div {
+  border: black solid 1px;
+  color: black;
+  background-color: #576094;
+  display: block;
+  text-align: center;
+  margin: 50px;
+  padding: 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.servicessection div h3 {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.contactsection div {
+  border: black solid 1px;
+  color: black;
+  background-color: #576094;
+  display: block;
+  text-align: center;
+  margin: 50px;
+  padding-top: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.contactsection article img {
+  width: 250px;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul a {
+  margin: -40px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #576094;
+}
+
+.imprint div {
+  margin: 50px;
+  margin-top: 80px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.privacy div {
+  margin: 50px;
+  margin-top: 80px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
